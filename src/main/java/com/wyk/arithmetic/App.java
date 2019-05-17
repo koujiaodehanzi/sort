@@ -22,7 +22,9 @@ public class App
         //5.选择排序
 //        SelectSort.selectSort(arr);
         //6.插入排序
-        InsertSort.insertSort(arr);
+//        InsertSort.insertSort(arr);
+        //7.希尔排序
+        ShellSort.shellSort(arr);
 
         printArr(arr);
     }
