@@ -20,7 +20,9 @@ public class App
         //4.冒泡排序
 //        BubbleSort.bubbleSort(arr);
         //5.选择排序
-        SelectSort.selectSort(arr);
+//        SelectSort.selectSort(arr);
+        //6.插入排序
+        InsertSort.insertSort(arr);
 
         printArr(arr);
     }
