@@ -1,5 +1,7 @@
 package com.wyk.arithmetic.sort;
 
+import com.wyk.arithmetic.utils.SwapUtil;
+
 /**
  * @author wuyankun
  * @title: QuickSort
@@ -24,13 +26,13 @@ public class QuickSort {
             while (standard <= arr[end] && start < end){
                 end--;
             }
-            swap(arr, start, end);
+            SwapUtil.swap(arr, start, end);
 
 
             while (standard >= arr[start] && start < end){
                 start++;
             }
-            swap(arr, start, end);
+            SwapUtil.swap(arr, start, end);
 
         }
 
@@ -58,16 +60,6 @@ public class QuickSort {
     }
 
 
-    public static void swap(int[] arr, int i, int j){
-        /*  高逼格两数转换，但是不能应用于数组转换
-        arr[i] = arr[i] ^ arr[j];
-        arr[j] = arr[i] ^ arr[j];
-        arr[i] = arr[i] ^ arr[j];*/
-
-        int n = arr[i];
-        arr[i] = arr[j];
-        arr[j] = n;
-    }
 
     public static int partition(int[] arr, int left, int right){
         // 使用left作为基准值 进行比较
@@ -75,12 +67,12 @@ public class QuickSort {
 
         for (int i=index; i<=right; i++){
             if (arr[i] < arr[left]){
-                swap(arr, i, index);
+                SwapUtil.swap(arr, i, index);
                 index++;
             }
         }
 
-        swap(arr, left, index-1);
+        SwapUtil.swap(arr, left, index-1);
 
         return index-1;
     }
