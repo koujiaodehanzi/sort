@@ -25,6 +25,12 @@ public class App
 //        InsertSort.insertSort(arr);
         //7.希尔排序
         ShellSort.shellSort(arr);
+        //8.基数排序
+        RadixSort.radixSort(arr, 10,5);
+        //9.桶排序
+
+        //10.希尔排序
+
 
         printArr(arr);
     }
