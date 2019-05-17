@@ -30,9 +30,10 @@ public class App
         //9.桶排序
 //        BucketSort.bucketSort(arr, 9999);
         //10.希尔排序
-
+        CountSort.countSort(arr, 1000);
 
         printArr(arr);
+
     }
 
     public static void printArr(int[] arr){
