@@ -1,5 +1,6 @@
 package com.wyk.arithmetic;
 
+import com.wyk.arithmetic.sort.BubbleSort;
 import com.wyk.arithmetic.sort.HeapSort;
 import com.wyk.arithmetic.sort.MergeSort;
 import com.wyk.arithmetic.sort.QuickSort;
@@ -18,7 +19,9 @@ public class App
         //2.归并排序
 //        MergeSort.mergeSort(arr, 0, arr.length-1);
         //3.堆排序
-        HeapSort.heapSort(arr);
+//        HeapSort.heapSort(arr);
+        //4.冒泡
+        BubbleSort.bubbleSort(arr);
 
         printArr(arr);
     }
