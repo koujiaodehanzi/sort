@@ -24,11 +24,11 @@ public class App
         //6.插入排序
 //        InsertSort.insertSort(arr);
         //7.希尔排序
-        ShellSort.shellSort(arr);
+//        ShellSort.shellSort(arr);
         //8.基数排序
-        RadixSort.radixSort(arr, 5);
+//        RadixSort.radixSort(arr, 5);
         //9.桶排序
-
+//        BucketSort.bucketSort(arr, 9999);
         //10.希尔排序
 
 
