@@ -5,8 +5,7 @@ import com.wyk.arithmetic.utils.SwapUtil;
 /**
  * @author wuyankun
  * @title: HeapSort
- * @projectName sort
- * @description: TODO
+ * @description: 堆排序
  * @date 2019/5/1718:03
  */
 public class HeapSort {

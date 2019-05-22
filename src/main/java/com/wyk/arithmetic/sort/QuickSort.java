@@ -5,8 +5,7 @@ import com.wyk.arithmetic.utils.SwapUtil;
 /**
  * @author wuyankun
  * @title: QuickSort
- * @projectName sort
- * @description: TODO
+ * @description: 快速排序
  * @date 2019/5/1715:12
  */
 public class QuickSort {

@@ -2,7 +2,7 @@ package com.wyk.arithmetic.sort;
 
 /**
  * @Author: wyk
- * @Description:
+ * @Description:    插入排序
  * @Date: Create in 2019/5/17 21:17
  * @Modified By:
  */

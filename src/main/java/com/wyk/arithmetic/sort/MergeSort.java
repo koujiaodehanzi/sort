@@ -3,8 +3,7 @@ package com.wyk.arithmetic.sort;
 /**
  * @author wuyankun
  * @title: MergeSort
- * @projectName sort
- * @description: TODO
+ * @description: 归并排序
  * @date 2019/5/1717:29
  */
 public class MergeSort {
