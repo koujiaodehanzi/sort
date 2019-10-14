@@ -9,9 +9,26 @@ package com.wyk.arithmetic.sort;
  */
 public class BinarySearch {
 
-    public static int binarySearch(int[] arr,int target){
+    public static Integer binarySearch(int[] arr,int target){
         int start = 0;
         int end = arr.length - 1;
+
+        if (arr == null){
+            return null;
+        }
+
+        if (target == arr[start]){
+
+        }
+        if (target == arr[end]){
+
+        }
+
+        if (target > arr[start] && target < arr[end]){
+            return null;
+        }
+
+
 
         while (start <= end){
             int mid = (end + start) / 2;
